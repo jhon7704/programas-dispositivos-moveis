@@ -1,0 +1,6 @@
+fun main() {
+	var clientes = 10
+    
+    clientes = clientes + 2
+    println("10 clientes com a chegada dos outros: $clientes clientes")
+}
