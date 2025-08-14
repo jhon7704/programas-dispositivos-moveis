@@ -1,0 +1,14 @@
+fun main() {
+    val pipoca = 5
+    val hotdog = 7
+    var clientes = 10
+    
+    clientes = 8
+    println(clientes)
+    
+    val customers = 10
+    println("existem $customers clientes")
+    //separando nome da variavel do conteudo da variavel
+    
+    println("agora sao ${customers+1} clientes")
+}
