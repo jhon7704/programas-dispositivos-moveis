@@ -1,0 +1,17 @@
+fun main() {
+	var clientes = 11
+    
+    clientes += 7
+    println("total de $clientes  ")
+    
+     clientes -= 3
+    println("total de $clientes ")
+    
+     clientes *= 2
+    println("total de $clientes ")
+    
+     clientes /= 3
+    println("total de $clientes ")
+    
+    println("total geral de $clientes")
+}
