@@ -1,0 +1,11 @@
+fun main() {
+	
+    val frutas: MutableSet<String> = mutableSetOf("laranja", "tangerina", "maça", "uva")
+    println(frutas)
+    
+    frutas.add("acerola")
+    frutas.remove("uva")
+    println(frutas)
+    println("esse conj tem ${frutas.count()} itens")
+    
+}
