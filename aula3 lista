@@ -1,0 +1,7 @@
+fun main() {
+	val frutas = listOf("maçã", "banana","laranja", "manga")
+    println(frutas[0])
+    println(frutas[2])
+    
+    println(frutas.size)
+}
