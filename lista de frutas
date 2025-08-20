@@ -1,0 +1,11 @@
+fun main() {
+	val frutas = listOf("maçã", "laranja")
+    val frutas1 = listOf("limao")
+    
+    for(fruta in frutas){
+        println("eu gosto de $fruta")
+    }
+     for(fruta in frutas1){
+        println("eu noa gosto de $fruta")
+    }
+}
