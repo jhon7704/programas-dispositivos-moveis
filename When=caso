@@ -1,0 +1,11 @@
+fun main() {
+val obj = "teste"
+    
+   when(obj){
+       "1" -> println ("um")
+       "2" -> println ("dois")
+       "teste" -> println ("passou")
+       else -> println ("não passou")
+    
+   }
+}
