@@ -1,0 +1,5 @@
+fun main() {
+	val idade = 18
+    val status = if (idade >= 18) "adulto" else "menor"
+    print(status)
+}
