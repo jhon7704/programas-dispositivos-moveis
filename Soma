@@ -1,0 +1,10 @@
+fun main() {
+	val d: Boolean
+    val soma: Int = 3 + 1 + 1 + -85
+        if(soma == -80){
+            d = true
+        } else {
+            d = false
+        }
+            println(d)
+}
