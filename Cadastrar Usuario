@@ -1,0 +1,22 @@
+	val nomeusuarioscadastrados = mutableListOf ("joão_Pedro", "jane_Silva")
+    val emailcadastrados = mutableListOf ("joao@xj.com", "jane@xj.com")
+    
+    fun registrarusuario (nome : String, email: String): String {
+        if (nome in nomeusuarioscadastrados){
+        return ("nome de usuario ja ultilizado")
+    }
+        if (email in emailcadastrados){
+        return ("email ja cadastrado, tente outro")
+        } 
+        nomeusuarioscadastrados.add(nome)
+        emailcadastrados.add(email)
+        
+        return "usuario cadastrado com sucesso $nome"      
+}
+    
+    fun main() {
+        println(registrarusuario("joão_pedro", "joao@xj.com"))
+        
+        println(registrarusuario("novo_usuario", "novo@email.com"))
+        
+    }
